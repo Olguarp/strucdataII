@@ -35,50 +35,50 @@ número adecuado de asesores para atender llamadas
       +------------------------+
                     |
                     |
-  +----------------------------+
-  | Leer identificacion        |
-  | Leer nombre                |
-  | Leer Lunes                 |
-  | Leer Martes                |
-  | Leer Miercoles             |
-  +----------------------------+
+    +----------------------------+
+    | Leer identificacion        |
+    | Leer nombre                |
+    | Leer Lunes                 |
+    | Leer Martes                |
+    | Leer Miercoles             |
+    +----------------------------+
                     |
                     |
-  +---------------------------+
-  | Crear unAsesor             |
-  | unAsesor.identificacion <- |
-  | identificacion             |
-  | unAsesor.nombre <- nombre  |
-  | unAsesor.Lunes <- Lunes    |
-  | unAsesor.Martes <- Martes  |
-  | unAsesor.Miercoles <-     |
-  | Miercoles                  |
-  +---------------------------+
+    +---------------------------+
+    | Crear unAsesor             |
+    | unAsesor.identificacion <- |
+    | identificacion             |
+    | unAsesor.nombre <- nombre  |
+    | unAsesor.Lunes <- Lunes    |
+    | unAsesor.Martes <- Martes  |
+    | unAsesor.Miercoles <-     |
+    | Miercoles                  |
+    +---------------------------+
                     |
                     |
-      +------------------------+
-      | Guardar unAsesor en    |
-      | losAsesores[i]         |
-      +------------------------+
+       +------------------------+
+        | Guardar unAsesor en    |
+        | losAsesores[i]         |
+        +------------------------+
                     |
                     |
-+-------------------------------+
-| promedio <- 0                 |
-+-------------------------------+
+    +-------------------------------+
+    | promedio <- 0                 |
+    +-------------------------------+
                     |
                     |
-    +------------------------+
-    | Para i desde 0 hasta   |
-    | numero_asesores        |
-    +------------------------+
+       +------------------------+
+       | Para i desde 0 hasta   |
+       | numero_asesores        |
+       +------------------------+
                     |
                     |
-+-------------------------------+
-| sum <- (losAsesores[i].Lunes  |
-| + losAsesores[i].Martes +    |
-| losAsesores[i].Miercoles) /  |
-| 3                           |
-+-------------------------------+
+    +-------------------------------+
+    | sum <- (losAsesores[i].Lunes  |
+    | + losAsesores[i].Martes +    |
+    | losAsesores[i].Miercoles) /  |
+    | 3                           |
+    +-------------------------------+
                     |
                     |
        +-------------------+
@@ -88,10 +88,10 @@ número adecuado de asesores para atender llamadas
        +-------------------+
                     |
                     |
-   +----------------------------+
-   | Mostrar "El promedio es: " |
-   | + promedio                 |
-   +----------------------------+
+      +----------------------------+
+      | Mostrar "El promedio es: " |
+      | + promedio                 |
+      +----------------------------+
                     |
                     |
          +------------------+
