@@ -13,90 +13,7 @@ número adecuado de asesores para atender llamadas
 
 ## Diagrama DFD
 
-            +------------------+
-            |   AsesorPOO     |
-            +------------------+
-                    |
-                    |
-        +-------------------+
-        |   Inicio          |
-        +-------------------+
-                    |
-                    |
-         +------------------+
-         | Leer             |
-         | numero_asesores  |
-         +------------------+
-                    |
-                    |
-      +------------------------+
-      | Para i desde 0 hasta   |
-      | numero_asesores        |
-      +------------------------+
-                    |
-                    |
-    +----------------------------+
-    | Leer identificacion        |
-    | Leer nombre                |
-    | Leer Lunes                 |
-    | Leer Martes                |
-    | Leer Miercoles             |
-    +----------------------------+
-                    |
-                    |
-    +---------------------------+
-    | Crear unAsesor             |
-    | unAsesor.identificacion <- |
-    | identificacion             |
-    | unAsesor.nombre <- nombre  |
-    | unAsesor.Lunes <- Lunes    |
-    | unAsesor.Martes <- Martes  |
-    | unAsesor.Miercoles <-     |
-    | Miercoles                  |
-    +---------------------------+
-                    |
-                    |
-       +------------------------+
-        | Guardar unAsesor en    |
-        | losAsesores[i]         |
-        +------------------------+
-                    |
-                    |
-    +-------------------------------+
-    | promedio <- 0                 |
-    +-------------------------------+
-                    |
-                    |
-       +------------------------+
-       | Para i desde 0 hasta   |
-       | numero_asesores        |
-       +------------------------+
-                    |
-                    |
-    +-------------------------------+
-    | sum <- (losAsesores[i].Lunes  |
-    | + losAsesores[i].Martes +    |
-    | losAsesores[i].Miercoles) /  |
-    | 3                           |
-    +-------------------------------+
-                    |
-                    |
-       +-------------------+
-       | promedio <-       |
-       | promedio + sum /  |
-       | numero_asesores   |
-       +-------------------+
-                    |
-                    |
-      +----------------------------+
-      | Mostrar "El promedio es: " |
-      | + promedio                 |
-      +----------------------------+
-                    |
-                    |
-         +------------------+
-         |     Fin          |
-         +------------------+
+![image](https://github.com/Olguarp/strucdataII/assets/129121919/20af1663-92e4-471a-aad8-90311528a873)
 
 
 ## Pseudocódigo
@@ -247,4 +164,12 @@ public class Notas
             System.out.println ("El promedio es: " + promedio);
         }
     }
+
+## Diagrama de caso de uso
+
+![image](https://github.com/Olguarp/strucdataII/assets/129121919/43edf309-5472-4d9c-a48f-7db169e5bc48)
+
+## Jira
+
+![image](https://github.com/Olguarp/strucdataII/assets/129121919/ee12f6e2-383f-4bb9-8894-4b60de8695c3)
 
